@@ -5,8 +5,8 @@ from flask import Flask, jsonify, request, send_from_directory
 
 app = Flask(__name__, static_folder='.')
 
-SCALE = 1000.0
-lr = 0.05
+SCALE = 500.0
+lr = 0.0001
 
 # ─────────────────────────────────────────────
 #  NEURAL NETWORK
